@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-path = 'Data1.txt'
+path = 'Data3.txt'
 
 data = pd.read_csv(path, header=None, names=['Exam 1', 'Exam 2', 'Admitted'])
 
